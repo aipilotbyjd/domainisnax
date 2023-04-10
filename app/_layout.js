@@ -13,7 +13,7 @@ const _layout = () => {
     });
 
     if (!fontsLoaded) {
-        return <View><Text>Loading...</Text></View>;
+        return null;
     }
 
     return (
