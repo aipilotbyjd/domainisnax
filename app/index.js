@@ -1,21 +1,21 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
 
 const BussnessNameGenrator = () => {
-    return (
-        <View>
-            <Text style={styles.BussnessNameGenrator} >BussnessNameGenrator</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text style={styles.BussnessNameGenrator}>BussnessNameGenrator</Text>
+    </View>
+  );
+};
 
-export default BussnessNameGenrator
+export default BussnessNameGenrator;
 
 const styles = StyleSheet.create({
-    BussnessNameGenrator: {
-        color: 'red',
-        fontSize: 30,
-        fontWeight: 'bold',
-        fontFamily: 'Righteous-Regular',
-    }
-})
+  BussnessNameGenrator: {
+    color: "red",
+    fontSize: 30,
+    fontWeight: "bold",
+    fontFamily: "Righteous-Regular",
+  },
+});
