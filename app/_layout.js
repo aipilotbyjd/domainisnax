@@ -3,6 +3,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 // use fonts 
 import { useFonts } from 'expo-font';
+import 'react-native-url-polyfill/auto';
 
 const _layout = () => {
 
